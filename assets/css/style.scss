@@ -51,11 +51,11 @@ body:not(.dark) .social i:hover {
 }
 
 /* Navigation styling for dark mode */
-.dark .navigation a {
+body.dark .navigation a {
   color: #fff !important;
 }
 
-.dark .navigation a:hover {
+body.dark .navigation a:hover {
   color: #ddd !important;
   text-decoration: underline;
 }
@@ -65,6 +65,82 @@ body:not(.dark) .tagline {
   color: #666;
 }
 
-.dark .tagline {
+body.dark .tagline {
   color: #ccc;
 }
+
+/* Fix social icons alignment and sizing */
+.social {
+  align-items: center;
+}
+
+.social li {
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.social li i {
+  font-size: 30px !important;
+}
+
+/* Make email icon slightly smaller for better alignment */
+.social li i.icon-mail-alt {
+  font-size: 26px !important;
+}
+
+/* Font unification - Use Merriweather as primary font */
+body {
+  font-family: "Merriweather", serif !important;
+  font-weight: 300;
+}
+
+/* Use Raleway only for main titles and headings */
+#title, #title a, h1, h2 {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 700;
+}
+
+/* Keep navigation clean with Merriweather */
+.navigation ul a {
+  font-family: "Merriweather", serif !important;
+  font-weight: 400;
+}
+
+/* Content headings use Raleway for contrast */
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  font-family: "Raleway", sans-serif !important;
+}
+
+/* Dark mode toggle alignment */
+.about-footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.about-footer .icon-moon {
+  margin: 0;
+}
+
+/* Ensure layout stability during dark mode toggle */
+body, body.dark {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Prevent layout shifts in about section */
+.about {
+  overflow: hidden;
+}
+
+.about .about-header {
+  position: relative;
+  width: 100%;
+}
+
+

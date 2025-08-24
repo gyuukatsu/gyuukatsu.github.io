@@ -105,7 +105,7 @@ body:not(.dark) em {
 }
 
 /* Dark Mode content styling */
-.dark em {
+body.dark em {
   color: #d1d1d1;
   font-style: normal;
   font-weight: 400;
@@ -123,10 +123,10 @@ body:not(.dark) .awards-section em {
 }
 
 /* Special styling for experience/education descriptions - Dark Mode */
-.dark .experience-section li em,
-.dark .education-section li em,
-.dark .publications-section em,
-.dark .awards-section em {
+body.dark .experience-section li em,
+body.dark .education-section li em,
+body.dark .publications-section em,
+body.dark .awards-section em {
   color: #e8e8e8;
   font-style: normal;
   font-weight: 400;
@@ -144,9 +144,9 @@ body:not(.dark) .awards-section .date {
 }
 
 /* Styling for dates - Dark Mode */
-.dark .experience-section .date,
-.dark .education-section .date,
-.dark .awards-section .date {
+body.dark .experience-section .date,
+body.dark .education-section .date,
+body.dark .awards-section .date {
   color: #aaa;
   font-style: normal;
   font-weight: 300;
@@ -172,9 +172,9 @@ body:not(.dark) .awards-section p em {
 }
 
 /* Styling for job titles/majors/organizations under institution names - Dark Mode */
-.dark .experience-section p em,
-.dark .education-section p em,
-.dark .awards-section p em {
+body.dark .experience-section p em,
+body.dark .education-section p em,
+body.dark .awards-section p em {
   color: #bbb;
   font-style: normal;
   font-weight: 400;
@@ -201,20 +201,20 @@ body:not(.dark) h3 {
 }
 
 /* Section specific styling - Dark Mode */
-.dark h1 {
+body.dark h1 {
   border-bottom: 2px solid #ccc;
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
-.dark h2 {
-  color: #ddd;
+body.dark h2 {
+  color: #fff;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
-.dark h3 {
-  color: #ccc;
+body.dark h3 {
+  color: #ddd;
   margin-bottom: 0.5rem;
   margin-top: 1.5rem;
 }
@@ -231,12 +231,12 @@ body:not(.dark) a:hover {
 }
 
 /* Links styling - Dark Mode */
-.dark a {
+body.dark a {
   color: #ddd;
   text-decoration: none;
 }
 
-.dark a:hover {
+body.dark a:hover {
   color: #fff;
   text-decoration: underline;
 }
@@ -256,7 +256,7 @@ body:not(.dark) strong {
 }
 
 /* Emphasis styling for template fields - Dark Mode */
-.dark strong {
+body.dark strong {
   color: #f0f0f0;
 }
 

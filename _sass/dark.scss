@@ -1,10 +1,18 @@
-.dark,
-.dark * {
+body.dark {
 	$dark_text_color: #f6f6f6;
 	$dark_link_color: #4da3ff;
 	background-color: #171717;
 	color: $dark_text_color;
-	border-color: #e6e6e6;
+	
+	/* Ensure section headings are properly styled in dark mode */
+	h1, h2, h3, h4, h5, h6 {
+		color: #ffffff;
+	}
+	
+	/* Specific styling for about section headings */
+	.about h2 {
+		color: #ffffff !important;
+	}
 
 	.about{
 		img.light {
@@ -107,7 +115,8 @@
 		}
 	}
 }
-.dark table {
+
+body.dark table {
 	th, td {
 		border: 1px solid #333;
 	}
