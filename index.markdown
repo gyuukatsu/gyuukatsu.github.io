@@ -15,41 +15,20 @@ title: Seungkyu Lee
 
 </div>
 
-<div class="experience-section" id="experience">
-<h1>Experience</h1>
-
-<h2>Research Experience</h2>
-
-<h3>HOLI Lab., Seoul National University <span class="date">Aug. 2024 - Present</span></h3>
-<p><em>Undergraduate Researcher</em> | Advisor: <a href="https://yohanjo.github.io/" style="text-decoration: underline; color: #006400;"> Yohan Jo</a></p>
-
-<h2>Work Experience</h2>
-
-<h3>SAP Labs Korea <span class="date">Jul. 2025 - Present</span></h3>
-<p><em>Software Engineer Intern</em></p>
-
-<h3>Liner <span class="date">Nov. 2022 - Jan. 2024</span></h3>
-<p><em>Machine Learning Engineer</em></p>
-
-<h3>Nudge Healthcare <span class="date">Jan. 2022 - Nov. 2022</span></h3>
-<p><em>Data Analyst</em></p>
-
-</div>
-
 <div class="education-section" id="education">
 <h1>Education</h1>
 
-<h3>Seoul National University <span class="date">Mar. 2019 - Feb. 2026</span></h3>
+<h3><strong>Seoul National University</strong> <span class="date">Mar. 2019 - Feb. 2026</span></h3>
 <p><em>B.S. in Industrial Engineering</em></p>
 
-<h3>State University of New York at Stony Brook <span class="date">Jan. 2024 - May 2024</span></h3>
+<h3><strong>State University of New York at Stony Brook</strong> <span class="date">Jan. 2024 - May 2024</span></h3>
 <p><em>Exchange Student in Computer Science</em></p>
 </div>
 
 <div class="publications-section" id="publications">
 <h1>Publications</h1>
 
-<h2>2025</h2>
+<h3>2025</h3>
 <ol>
 <li><strong>In-N-Out: A Parameter-Level API Graph Dataset for Tool Agents</strong><br>
    <em><u>Seungkyu Lee</u>, Nalim Kim, Yohan Jo</em><br>
@@ -59,18 +38,29 @@ title: Seungkyu Lee
    <i>arXiv Preprint</i> <a href="#">[PDF]</a><br></li>
 </ol>
 
+</div>
+
+<div class="experience-section" id="experience">
+<h1>Experience</h1>
+
+<h3><strong>Undergraduate Researcher</strong> @ HOLI Lab., SNU | Advisor: <a href="https://yohanjo.github.io/" style="text-decoration: underline; color: #006400;"> Yohan Jo</a> <span class="date">Aug. 2024 - Present</span></h3>
+
+<h3><strong>Software Engineer Intern</strong> @ SAP Labs Korea <span class="date">Jul. 2025 - Present</span></h3>
+
+<h3><strong>Machine Learning Engineer</strong> @ Liner <span class="date">Nov. 2022 - Jan. 2024</span></h3>
+
+<h3><strong>Data Analyst</strong> @ Nudge Healthcare <span class="date">Jan. 2022 - Nov. 2022</span></h3>
+
+</div>
+
 
 <div class="awards-section" id="awards">
 <h1>Awards</h1>
 
-<h2>Leadership Award</h2>
+<h3><strong>The 13th Lee Joonghan Award</strong> <span class="date">Dec. 2021</span></h3>
+<p><em>Undergraduate Leadership Award, Department of Industrial Engineering, SNU</em></p>
 
-<h3>The 13th Lee Joonghan Award <span class="date">Dec. 2021</span></h3>
-<p><em>Department of Industrial Engineering, SNU</em></p>
-
-<h2>Competition Award</h2>
-
-<h3>HopperHackers 2024 - Best Beginner Hack (1st Place) <span class="date">Feb. 2024</span></h3>
+<h3><strong>HopperHackers 2024 - Best Beginner Hack (1st Place)</strong> <span class="date">Feb. 2024</span></h3>
 <p><em>SUNY Stony Brook Hackathon</em></p>
 
 </div>
@@ -78,7 +68,6 @@ title: Seungkyu Lee
 <hr>
 <p><em>"The best way to predict the future is to invent it."</em> - Alan Kay</p>
 <p><em>Last updated: Aug. 2025</em></p>
-</div>
 
 <style>
 div[class$="-section"] {
@@ -159,6 +148,153 @@ body.dark .awards-section .date {
 .education-section h3,
 .awards-section h3 {
   overflow: hidden;
+}
+
+
+
+/* Experience section font styling - use Merriweather for content, not title */
+.experience-section h3,
+.experience-section p,
+.experience-section em,
+.experience-section strong,
+.experience-section a,
+.experience-section .date {
+  font-family: "Merriweather", serif !important;
+}
+
+/* Education section font styling - same as Experience */
+.education-section h3,
+.education-section p,
+.education-section em,
+.education-section strong,
+.education-section a,
+.education-section .date {
+  font-family: "Merriweather", serif !important;
+}
+
+/* Awards section font styling - same as Experience and Education */
+.awards-section h3,
+.awards-section p,
+.awards-section em,
+.awards-section strong,
+.awards-section a,
+.awards-section .date {
+  font-family: "Merriweather", serif !important;
+}
+
+/* Publications section dark mode improvements */
+body.dark .publications-section ol {
+  color: #fff;
+}
+
+body.dark .publications-section li {
+  color: #fff;
+}
+
+body.dark .publications-section li strong {
+  color: #fff;
+}
+
+body.dark .publications-section i {
+  color: #f0f0f0;
+  font-style: italic;
+}
+
+body.dark .publications-section em {
+  color: #e8e8e8;
+}
+
+/* Specific styling for arXiv Preprint in dark mode */
+body.dark .publications-section ol li::marker {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Experience section advisor link styling in light mode */
+body:not(.dark) .experience-section a {
+  color: #000 !important;
+  text-decoration: underline;
+}
+
+/* Experience section advisor link styling in dark mode */
+body.dark .experience-section a {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+/* Experience section font size and readability matching Publications */
+.experience-section {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.experience-section h3 {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.experience-section h3 strong {
+  font-weight: 600;
+  color: inherit;
+}
+
+.experience-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Education section font size and styling - same as Experience */
+.education-section {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.education-section h3 {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.education-section h3 strong {
+  font-weight: 600;
+  color: inherit;
+}
+
+.education-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Awards section font size and styling - same as Experience and Education */
+.awards-section {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.awards-section h3 {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.awards-section h3 strong {
+  font-weight: 600;
+  color: inherit;
+}
+
+.awards-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Styling for job titles/majors/organizations under institution names - Light Mode */
