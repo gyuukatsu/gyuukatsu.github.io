@@ -1,0 +1,70 @@
+---
+---
+
+@import "plain";
+
+{% if site.plainwhite.search %}
+  @import "search";
+{% endif %}
+
+{%- if site.plainwhite.dark_mode -%}
+  @import "toggle";
+  @import "dark";
+{%- endif -%}
+
+/* Custom color overrides for light mode */
+body:not(.dark) #title a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+body:not(.dark) #title a:hover {
+  color: #333 !important;
+}
+
+/* Make navigation menu items black instead of blue in light mode */
+body:not(.dark) .navigation a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+body:not(.dark) .navigation a:hover {
+  color: #333 !important;
+  text-decoration: underline;
+}
+
+/* Make social icons black instead of blue in light mode */
+body:not(.dark) .social a {
+  color: #000 !important;
+}
+
+body:not(.dark) .social a:hover {
+  color: #333 !important;
+}
+
+body:not(.dark) .social i {
+  color: #000 !important;
+}
+
+body:not(.dark) .social i:hover {
+  color: #333 !important;
+}
+
+/* Navigation styling for dark mode */
+.dark .navigation a {
+  color: #fff !important;
+}
+
+.dark .navigation a:hover {
+  color: #ddd !important;
+  text-decoration: underline;
+}
+
+/* Tagline colors for both modes */
+body:not(.dark) .tagline {
+  color: #666;
+}
+
+.dark .tagline {
+  color: #ccc;
+}

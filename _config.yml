@@ -1,0 +1,68 @@
+# Seungkyu Lee's Personal Website
+
+title: Seungkyu Lee
+email: iseunggyu0@gmail.com
+description: >- 
+  Seungkyu Lee - Computer Science PhD Applicant specializing in NLP and Machine Learning
+baseurl: "" 
+url: "https://gyuukatsu.github.io"
+
+# Plainwhite theme settings
+plainwhite:
+  name: Seungkyu Lee
+  tagline: NLP Researcher
+  date_format: "%b %-d, %Y"
+  
+  # Site features
+  sitemap: true
+  search: false
+  dark_mode: true
+  
+  # Portfolio image
+  portfolio_image: "assets/profile.png"
+  
+  # Navigation menu
+  navigation:
+    - title: About
+      url: "#about"
+    - title: Experience
+      url: "#experience"
+    - title: Education
+      url: "#education"
+    - title: Publications
+      url: "#publications"
+    - title: Awards
+      url: "#awards"
+  
+  # Social links (add your actual links)
+  social_links:
+    github: gyuukatsu
+    email: iseunggyu0@gmail.com
+    linkedIn: in/seungkyulee
+
+# Build settings
+theme: plainwhite
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
