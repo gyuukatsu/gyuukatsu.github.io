@@ -41,7 +41,7 @@ plainwhite:
     linkedIn: in/seungkyulee
 
 # Build settings
-theme: plainwhite
+# theme: plainwhite  # Removed for GitHub Pages compatibility
 plugins:
   - jekyll-feed
   - jekyll-sitemap
