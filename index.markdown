@@ -35,7 +35,7 @@ title: Seungkyu Lee
    <i>arXiv Preprint</i> <a href="https://arxiv.org/abs/2509.01560">[PDF]</a><br></li>
 <li><strong>Summarizing Large-scale Reviews with LLM-based Aspect Term Extraction</strong><br>
    <em><u>Seungkyu Lee</u>, Sungzoon Cho</em><br>
-  </li>
+   <i>Undergraduate Thesis, Department of Industrial Engineering, SNU</i><br></li>
 </ol>
 
 </div>
