@@ -43,9 +43,9 @@ title: Seungkyu Lee
 <div class="experience-section" id="experience">
 <h1>Experience</h1>
 
-<h3><strong>Undergraduate Researcher</strong> @ HOLI Lab., SNU | Advisor: <a href="https://yohanjo.github.io/" style="text-decoration: underline; color: #006400;"> Yohan Jo</a> <span class="date">Aug. 2024 - Present</span></h3>
-
 <h3><strong>Software Engineer Intern</strong> @ SAP Labs Korea <span class="date">Jul. 2025 - Present</span></h3>
+
+<h3><strong>Undergraduate Researcher</strong> @ HOLI Lab., SNU | Advisor: <a href="https://yohanjo.github.io/" style="text-decoration: underline; color: #006400;"> Yohan Jo</a> <span class="date">Aug. 2024 - Present</span></h3>
 
 <h3><strong>Machine Learning Engineer</strong> @ Liner <span class="date">Nov. 2022 - Jan. 2024</span></h3>
 
