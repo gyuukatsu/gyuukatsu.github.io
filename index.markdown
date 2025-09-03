@@ -32,10 +32,10 @@ title: Seungkyu Lee
 <ol>
 <li><strong>In-N-Out: A Parameter-Level API Graph Dataset for Tool Agents</strong><br>
    <em><u>Seungkyu Lee</u>, Nalim Kim, Yohan Jo</em><br>
-   <i>arXiv Preprint</i> <a href="#">[PDF]</a> <a href="#">[Code]</a><br></li>
+   <i>arXiv Preprint</i> <a href="https://arxiv.org/abs/2509.01560">[PDF]</a><br></li>
 <li><strong>Summarizing Large-scale Reviews with LLM-based Aspect Term Extraction</strong><br>
    <em><u>Seungkyu Lee</u>, Sungzoon Cho</em><br>
-   <i>arXiv Preprint</i> <a href="#">[PDF]</a><br></li>
+  </li>
 </ol>
 
 </div>
