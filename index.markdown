@@ -18,11 +18,11 @@ title: Seungkyu Lee
 <div class="education-section" id="education">
 <h1>Education</h1>
 
-<h3><strong>Seoul National University</strong> <span class="date">Mar. 2019 - Feb. 2026</span></h3>
-<p><em>B.S. in Industrial Engineering</em></p>
+<h3><strong>Seoul National University</strong> <span class="date">Mar. 2019 - Present</span></h3>
+<p><em>B.S. in Industrial Engineering (Expected Feb. 2026)</em></p>
 
 <h3><strong>State University of New York at Stony Brook</strong> <span class="date">Jan. 2024 - May 2024</span></h3>
-<p><em>Exchange Student in Computer Science</em></p>
+<p><em>Exchange Student, Computer Science (Spring 2024)</em></p>
 </div>
 
 <div class="publications-section" id="publications">
@@ -33,9 +33,10 @@ title: Seungkyu Lee
 <li><strong>In-N-Out: A Parameter-Level API Graph Dataset for Tool Agents</strong><br>
    <em><u>Seungkyu Lee</u>, Nalim Kim, Yohan Jo</em><br>
    <i>arXiv Preprint</i> <a href="https://arxiv.org/abs/2509.01560">[PDF]</a><br></li>
-<li><strong>Summarizing Large-scale Reviews with LLM-based Aspect Term Extraction</strong><br>
-   <em><u>Seungkyu Lee</u>, Sungzoon Cho</em><br>
-   <i>Undergraduate Thesis, Department of Industrial Engineering, SNU</i><br></li>
+<li><strong>ThinkBrake: Mitigating Overthinking in Tool Reasoning</strong><br>
+   <em>Minjae Oh<sup>*</sup>, Sangjun Song<sup>*</sup>, <u>Seungkyu Lee</u><sup>*</sup>, Sungmin Jo, Yohan Jo</em><br>
+   <em class="equal-contribution"><sup>*</sup> Equal contribution (co-first authors)</em><br>
+   <i>arXiv Preprint</i> <a href="https://arxiv.org/abs/2509.01560">[PDF]</a><br></li>
 </ol>
 
 </div>
@@ -57,17 +58,17 @@ title: Seungkyu Lee
 <div class="awards-section" id="awards">
 <h1>Awards</h1>
 
-<h3><strong>The 13th Lee Joonghan Award</strong> <span class="date">Dec. 2021</span></h3>
-<p><em>Undergraduate Leadership Award, Department of Industrial Engineering, SNU</em></p>
-
 <h3><strong>HopperHackers 2024 - Best Beginner Hack (1st Place)</strong> <span class="date">Feb. 2024</span></h3>
 <p><em>SUNY Stony Brook Hackathon</em></p>
+
+<h3><strong>The 13th Lee Joonghan Award, Leadership Sector</strong> <span class="date">Dec. 2021</span></h3>
+<p><em>Dept. of Industrial Engineering, Seoul National University</em></p>
 
 </div>
 
 <hr>
 <p><em>"The best way to predict the future is to invent it."</em> - Alan Kay</p>
-<p><em>Last updated: Aug. 2025</em></p>
+<p><em>Last updated: Oct. 2025</em></p>
 
 <style>
 div[class$="-section"] {
@@ -394,6 +395,18 @@ body:not(.dark) strong {
 /* Emphasis styling for template fields - Dark Mode */
 body.dark strong {
   color: #f0f0f0;
+}
+
+/* Equal contribution footnote styling */
+.equal-contribution {
+  font-size: 0.75em !important;
+  color: #888 !important;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+body.dark .equal-contribution {
+  color: #aaa !important;
 }
 
 /* Spacing */
