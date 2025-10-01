@@ -1,34 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
-  <defs>
-    <linearGradient id="bgGradApple" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#F8F9FA;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#E9ECEF;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="cloverGradApple" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7ED321;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#4A9B2E;stop-opacity:1" />
-    </linearGradient>
-  </defs>
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Four-leaf clover 🍀 style for Apple Touch Icon -->
+  <rect width="180" height="180" rx="40" fill="#f8fafc"/>
   
-  <!-- Background rounded rectangle for iOS -->
-  <rect x="0" y="0" width="180" height="180" rx="40" ry="40" fill="url(#bgGradApple)"/>
-  
-  <!-- Four-leaf clover (scaled for iOS) -->
   <!-- Top leaf -->
-  <ellipse cx="90" cy="67.5" rx="16.875" ry="22.5" fill="url(#cloverGradApple)" stroke="#2D6E1E" stroke-width="4"/>
+  <ellipse cx="90" cy="67" rx="20" ry="28" fill="#22c55e"/>
   
   <!-- Right leaf -->
-  <ellipse cx="112.5" cy="90" rx="22.5" ry="16.875" fill="url(#cloverGradApple)" stroke="#2D6E1E" stroke-width="4"/>
+  <ellipse cx="113" cy="90" rx="28" ry="20" fill="#22c55e"/>
   
   <!-- Bottom leaf -->
-  <ellipse cx="90" cy="112.5" rx="16.875" ry="22.5" fill="url(#cloverGradApple)" stroke="#2D6E1E" stroke-width="4"/>
+  <ellipse cx="90" cy="113" rx="20" ry="28" fill="#22c55e"/>
   
   <!-- Left leaf -->
-  <ellipse cx="67.5" cy="90" rx="22.5" ry="16.875" fill="url(#cloverGradApple)" stroke="#2D6E1E" stroke-width="4"/>
+  <ellipse cx="67" cy="90" rx="28" ry="20" fill="#22c55e"/>
   
-  <!-- Center circle -->
-  <circle cx="90" cy="90" r="10" fill="url(#cloverGradApple)" stroke="#2D6E1E" stroke-width="4"/>
+  <!-- Center connecting circle -->
+  <circle cx="90" cy="90" r="14" fill="#16a34a"/>
   
   <!-- Small stem -->
-  <path d="M 90 123.75 L 90 140.625" stroke="#4A9B2E" stroke-width="11" stroke-linecap="round"/>
+  <rect x="87" y="118" width="6" height="18" fill="#15803d" rx="3"/>
 </svg>

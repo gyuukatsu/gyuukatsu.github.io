@@ -44,13 +44,28 @@ title: Seungkyu Lee
 <div class="experience-section" id="experience">
 <h1>Experience</h1>
 
-<h3><strong>Software Engineer Intern</strong> @ SAP Labs Korea <span class="date">Jul. 2025 - Present</span></h3>
+<h2>Research Experience</h2>
 
 <h3><strong>Undergraduate Researcher</strong> @ HOLI Lab., SNU | Advisor: <a href="https://yohanjo.github.io/" style="text-decoration: underline; color: #006400;"> Yohan Jo</a> <span class="date">Aug. 2024 - Present</span></h3>
 
+<h3><strong>Research Assistant</strong> @ Big Data AI Center, SNU | Advisor: <a href="https://scholar.google.com/citations?user=dEdyEc0AAAAJ&hl=ko" style="text-decoration: underline; color: #006400;"> Sungzoon Cho</a> <span class="date">Jul. 2021 - Aug. 2021</span></h3>
+
+<h2>Professional Experience</h2>
+
+<h3><strong>Software Engineer Intern</strong> @ SAP Labs Korea <span class="date">Jul. 2025 - Present</span></h3>
+
 <h3><strong>Machine Learning Engineer</strong> @ Liner <span class="date">Nov. 2022 - Jan. 2024</span></h3>
 
-<h3><strong>Data Analyst</strong> @ Nudge Healthcare <span class="date">Jan. 2022 - Nov. 2022</span></h3>
+<h3><strong>Data Analyst</strong> @ Nudge Healthcare (CashWalk) <span class="date">Jan. 2022 - Nov. 2022</span></h3>
+
+<h2>Teaching Experience</h2>
+
+<h3><strong>Undergraduate Teaching Assistant (Tutor)</strong></h3>
+<ol>
+<li><span class="course-name">Scientific Management</span>, Dept. of Industrial Engineering, SNU <span class="date">Mar. 2025 - Aug. 2025</span></li>
+<li><span class="course-name">Data Structures</span>, Innovative Shared Curriculum (Big Data), SNU <span class="date">Jun. 2024 - Jul. 2024</span></li>
+<li><span class="course-name">Elementary Korean I</span>, Center for Korean Studies, Stony Brook University <span class="date">Jan. 2024 - May 2024</span></li>
+</ol>
 
 </div>
 
@@ -159,7 +174,9 @@ body.dark .awards-section .date {
 .experience-section em,
 .experience-section strong,
 .experience-section a,
-.experience-section .date {
+.experience-section .date,
+.experience-section ol,
+.experience-section li {
   font-family: "Merriweather", serif !important;
 }
 
@@ -387,6 +404,11 @@ li {
   margin-bottom: 0.3rem;
 }
 
+/* Publications section list items need more spacing */
+.publications-section li {
+  margin-bottom: 1.2rem;
+}
+
 /* Emphasis styling for template fields - Light Mode */
 body:not(.dark) strong {
   color: #333;
@@ -413,5 +435,80 @@ body.dark .equal-contribution {
 p {
   margin-bottom: 1rem;
   line-height: 1.6;
+}
+
+/* Teaching Experience course names styling - Light Mode */
+body:not(.dark) .course-name {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+/* Teaching Experience course names styling - Dark Mode */
+body.dark .course-name {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* Teaching Experience list styling - Light Mode */
+body:not(.dark) .experience-section ol li {
+  color: #666;
+  font-weight: 400;
+}
+
+/* Teaching Experience list styling - Dark Mode */
+body.dark .experience-section ol li {
+  color: #ddd;
+  font-weight: 400;
+}
+
+
+/* Custom numbering for Teaching Experience - using parentheses */
+.experience-section ol {
+  counter-reset: teaching-counter;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 1.5rem;
+}
+
+.experience-section ol li {
+  counter-increment: teaching-counter;
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.experience-section ol li::before {
+  content: counter(teaching-counter) ")";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Light mode numbering color */
+body:not(.dark) .experience-section ol li::before {
+  color: #666;
+}
+
+/* Dark mode numbering color */
+body.dark .experience-section ol li::before {
+  color: #ddd;
+}
+
+/* Experience subsection spacing */
+.experience-section h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Experience subsection divider lines - Light Mode */
+body:not(.dark) .experience-section h2:not(:first-of-type) {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1.5rem;
+}
+
+/* Experience subsection divider lines - Dark Mode */
+body.dark .experience-section h2:not(:first-of-type) {
+  border-top: 1px solid #555;
+  padding-top: 1.5rem;
 }
 </style>
