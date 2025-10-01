@@ -5,7 +5,7 @@ email: iseunggyu0@gmail.com
 description: >- 
   Seungkyu Lee - NLP Researcher
 baseurl: "" 
-url: "https://seungkyu-lee.github.io"
+url: "https://seungkyu-lee-01.github.io"
 
 # Plainwhite theme settings
 plainwhite:
@@ -36,7 +36,7 @@ plainwhite:
   
   # Social links (add your actual links)
   social_links:
-    github: seungkyu-lee
+    github: seungkyu-lee-01
     email: iseunggyu0@gmail.com
     linkedIn: in/seungkyulee
 
