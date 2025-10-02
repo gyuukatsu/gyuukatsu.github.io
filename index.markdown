@@ -6,11 +6,11 @@ title: Seungkyu Lee
 <div class="about-section" id="about">
 <h1>About</h1>
 
-<p>Hi, I'm <strong>Seungkyu Lee</strong>, a senior undergraduate in Industrial Engineering at Seoul National University passionate about advancing the capabilities of Large Language Models and their real-world applications.</p>
+<p>Hi, I'm <strong>Seungkyu Lee</strong>, a senior undergraduate in Industrial Engineering at Seoul National University. I study natural language processing with a focus on <strong>tool‑augmented LLMs (agents)</strong>, <strong>efficient reasoning</strong>, and <strong>reliable &amp; truthful LLMs</strong>.</p>
 
-<p>My research interests focus on <strong>building more intelligent and capable AI systems</strong>, with a particular emphasis on LLM-powered Tool Agents. At SNU's HOLI (Human-Oriented Language Intelligence) Lab, I've developed graph-based architectures that enhance how agents plan and execute complex tasks through structured reasoning and API interactions. This work has led to a first-author paper on API graph datasets and their applications.</p>
+<p>At SNU's Human‑Oriented Language Intelligence (HOLI) Lab, I study tool‑augmented agents that interact with external APIs, building <strong>parameter‑level API graph resources</strong> that enable agents to better retrieve relevant APIs and compose multi‑step API calls. I also investigate efficient reasoning, developing ways to <strong>curb overthinking in small reasoning models</strong>, resulting in more accurate and reliable tool calls.</p>
 
-<p>Through my experience as a Machine Learning Engineer at Liner, I've implemented these concepts by developing <strong>autonomous agents that effectively handle complex user queries</strong> using various external APIs. I'm passionate about combining theoretical research with practical applications to build more reliable and capable AI assistants that truly understand user intentions.</p>
+<p>Earlier at Liner, as a machine learning engineer, I developed <strong>autonomous agents that effectively handle complex user queries</strong> using external APIs. Those production experiences, together with my current research, drive me to combine theoretical work with practical applications and build reliable, capable AI assistants.</p>
 
 
 </div>
