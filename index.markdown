@@ -18,10 +18,10 @@ title: Seungkyu Lee
 <div class="education-section" id="education">
 <h1>Education</h1>
 
-<h3><strong>Seoul National University</strong> <span class="date">Mar. 2019 - Present</span></h3>
+<h3><strong>Seoul National University (SNU)</strong> <span class="date">Mar. 2019 - Present</span></h3>
 <p><em>B.S. in Industrial Engineering (Expected Feb. 2026)</em></p>
 
-<h3><strong>State University of New York at Stony Brook</strong> <span class="date">Jan. 2024 - May 2024</span></h3>
+<h3><strong>Stony Brook University (SUNY)</strong> <span class="date">Jan. 2024 - May 2024</span></h3>
 <p><em>Exchange Student, Computer Science (Spring 2024)</em></p>
 </div>
 
