@@ -17,6 +17,7 @@ plainwhite:
   sitemap: true
   search: false
   dark_mode: true
+  analytics_id: G-8DHKR1ES1V
   
   # Portfolio image
   portfolio_image: "assets/profile.png"
