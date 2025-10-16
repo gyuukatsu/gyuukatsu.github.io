@@ -32,11 +32,11 @@ title: Seungkyu Lee
 <ol>
 <li><strong>In-N-Out: A Parameter-Level API Graph Dataset for Tool Agents</strong><br>
    <em><u>Seungkyu Lee</u>, Nalim Kim, Yohan Jo</em><br>
-   <i>arXiv Preprint</i> <a href="https://arxiv.org/abs/2509.01560">[PDF]</a><br></li>
+   <a href="https://arxiv.org/abs/2509.01560">[PDF]</a> <i>Transactions of the Association for Computational Linguistics (Accepted under minor revision) </i> <br></li>
 <li><strong>ThinkBrake: Mitigating Overthinking in Tool Reasoning</strong><br>
    <em>Minjae Oh<sup>*</sup>, Sangjun Song<sup>*</sup>, <u>Seungkyu Lee</u><sup>*</sup>, Sungmin Jo, Yohan Jo</em><br>
    <em class="equal-contribution"><sup>*</sup> Equal contribution (co-first authors)</em><br>
-   <i>arXiv Preprint</i> <a href="https://arxiv.org/abs/2510.00546">[PDF]</a><br></li>
+   <a href="https://arxiv.org/abs/2510.00546">[PDF]</a> <i>NeurIPS 2025 Workshop on Efficient Reasoning</i><br></li>
 </ol>
 
 </div>
